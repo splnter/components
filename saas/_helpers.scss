@@ -1,0 +1,37 @@
+.hide {
+    display: none;
+  }
+
+.animate-dashboard {
+    display: block;
+}
+
+.active-nav-link {
+    font-weight: 700;
+    position: relative;
+    transform: translateX(22px);
+}
+
+.mobile-nav-overlay.nav-open {
+    clip-path: circle(100%);
+}
+
+/* toggle active menu link */
+.active-nav-link::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: .75rem;
+    height: .75rem;
+    background-color: currentColor;
+    border-radius: 1.5rem;
+    transform: translateY(-50%);
+    margin-right: 10px;
+    left: -22px;
+    }
+
+
+ .prevent-scroll {
+     overflow: hidden;
+ }

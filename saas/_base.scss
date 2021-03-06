@@ -1,0 +1,23 @@
+:root {
+    --color-green: #3dafa1;
+    --color-purple: #69489F;  
+  }
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &-mobile {
+        width: 85%;
+        margin: 0 auto;  
+    }
+  }
+
+  .full-screen {
+    height: 100vh;
+  }
